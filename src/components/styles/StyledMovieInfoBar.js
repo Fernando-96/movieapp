@@ -48,6 +48,13 @@ export const StyledMovieInfoBar = styled.div`
     .fa-budget {
       display: none;
     }
+    .movieinfobar-content-col {
+      width: 20%;
+      padding: 10px;
+    }
+    .movieinfobar-info {
+      padding: 10px;
+    }
   }
 
   @media screen and (max-width: 425px) {
@@ -57,5 +64,12 @@ export const StyledMovieInfoBar = styled.div`
       display: none;
     }
     font-size: 14px;
+  }
+  .movieinfobar-content-col {
+    width: 20%;
+    padding: 10px;
+  }
+  .movieinfobar-info {
+    padding: 10px;
   }
 `;
