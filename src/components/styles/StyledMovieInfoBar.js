@@ -49,11 +49,14 @@ export const StyledMovieInfoBar = styled.div`
       display: none;
     }
     .movieinfobar-content-col {
-      width: 20%;
-      padding: 10px;
+      float: left;
+      width: 35%;
+      padding: 10px 20px 0 0;
     }
+
     .movieinfobar-info {
-      padding: 10px;
+      padding: 5px 0 0 10px;
+      float: left;
     }
   }
 
@@ -64,12 +67,5 @@ export const StyledMovieInfoBar = styled.div`
       display: none;
     }
     font-size: 14px;
-  }
-  .movieinfobar-content-col {
-    width: 20%;
-    padding: 10px;
-  }
-  .movieinfobar-info {
-    padding: 10px;
   }
 `;
